@@ -29,7 +29,7 @@ section text:
   
 ; print text on the screen
 mov eax, 0 ; text lcoation on the screen (should be Point struct defined in the API, not mentioned here)
-mov ebx, [tekst] ; move adress of the text variable to the register that will be used during system interrupt
+mov ebx, [text] ; move adress of the text variable to the register that will be used during system interrupt
 mov ecx, 0 ; text color (black)
 int 50 ; call system interrupt which will draw text
 
