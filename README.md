@@ -21,17 +21,17 @@ Here is Hello World in my asm:
 BLOCK MAIN:
 
 section data:	
-;; initialized data
+; initialized data
 text db "Hello World!",0
 
 section text:
   ; Program execution starts here...
   
 ; print text on the screen
-mov eax, 0 ; text lcoation on teh screen (should be Point struct defined in the API)
-mov ebx, [tekst] ; move adress of the text to the register
+mov eax, 0 ; text lcoation on the screen (should be Point struct defined in the API, not mentioned here)
+mov ebx, [tekst] ; move adress of the text variable to the register that will be used during system interrupt
 mov ecx, 0 ; text color (black)
-int 50
+int 50 ; call system interrupt which will draw text
 
 ; while(true) {}
 label noexit:
