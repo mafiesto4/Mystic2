@@ -1,0 +1,12 @@
+.\Obj\debug_frmwrk.o: ..\Source\Platform\LPC17xx\debug_frmwrk.c
+.\Obj\debug_frmwrk.o: ..\Source\Platform\LPC17xx\debug_frmwrk.h
+.\Obj\debug_frmwrk.o: ..\Source\Platform\LPC17xx\lpc17xx_uart.h
+.\Obj\debug_frmwrk.o: ..\Source\Platform\LPC17xx\LPC17xx.h
+.\Obj\debug_frmwrk.o: D:\Wojtek\HyLandTiger\Keil\ARM\CMSIS\Include\core_cm3.h
+.\Obj\debug_frmwrk.o: D:\Wojtek\HyLandTiger\Keil\ARM\RV31\Inc\stdint.h
+.\Obj\debug_frmwrk.o: D:\Wojtek\HyLandTiger\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\Obj\debug_frmwrk.o: D:\Wojtek\HyLandTiger\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\Obj\debug_frmwrk.o: ..\Source\Platform\LPC17xx\system_LPC17xx.h
+.\Obj\debug_frmwrk.o: ..\Source\Platform\LPC17xx\lpc_types.h
+.\Obj\debug_frmwrk.o: ..\Source\Platform\LPC17xx\lpc17xx_pinsel.h
+.\Obj\debug_frmwrk.o: ..\Source\Platform\LPC17xx\lpc17xx_libcfg_default.h

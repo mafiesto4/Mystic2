@@ -1,0 +1,432 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\Wojtek\HyLandTiger\Mystic 2\MDK-ARM\Mystic.uvproj
+Project File Date:  08/24/2013
+
+<h2>Output:</h2>
+Build target 'Mystic'
+compiling main.c...
+compiling timer.c...
+compiling SPI_MSD_Driver.c...
+compiling Kernel.c...
+..\Source\Kernel\Kernel.c(617): warning:  #177-D: variable "i3" was declared but never referenced
+..\Source\Kernel\Kernel.c(574): warning:  #177-D: variable "i" was declared but never referenced
+..\Source\Kernel\Kernel.c(574): warning:  #177-D: variable "p" was declared but never referenced
+..\Source\Kernel\Kernel.c(575): warning:  #177-D: variable "proc" was declared but never referenced
+..\Source\Kernel\Kernel.c(1126): warning:  #177-D: variable "byteArray" was declared but never referenced
+compiling FileSystem.c...
+compiling List.c...
+compiling Execute.c...
+compiling Process.c...
+compiling Time.c...
+compiling RTC.c...
+..\Source\Kernel\RTC.c(26): warning:  #223-D: function "printf" declared implicitly
+compiling UART.c...
+compiling Thread.c...
+..\Source\Kernel\Thread.h(52): error:  #101: "Block" has already been declared in the current scope
+..\Source\Kernel\Thread.h(59): error:  #256: invalid redeclaration of type name "Block" (declared at line 59 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(62): error:  #101: "Process" has already been declared in the current scope
+..\Source\Kernel\Thread.h(77): error:  #256: invalid redeclaration of type name "Process" (declared at line 77 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(80): error:  #147: declaration is incompatible with "Process *OS_Proc_Create(Char *, File *, Byte, Byte, Word, Word)" (declared at line 80 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(83): error:  #147-D: declaration is incompatible with "void OS_Proc_Terminate(Process *)" (declared at line 83 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(86): error:  #147-D: declaration is incompatible with "void OS_Proc_Suspend(Process *)" (declared at line 86 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(89): error:  #147-D: declaration is incompatible with "void OS_Proc_Run(Process *)" (declared at line 89 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(92): error:  #147-D: declaration is incompatible with "void OS_Proc_Sleep(Process *, Word)" (declared at line 92 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(95): error:  #147: declaration is incompatible with "Process *OS_Proc_GetProcessByPID(Byte)" (declared at line 95 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(98): error:  #147: declaration is incompatible with "Process *OS_Proc_GetProcessByName(Char *)" (declared at line 98 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(104): error:  #147-D: declaration is incompatible with "Word OS_Proc_GetMemoryUsage(Process *)" (declared at line 104 of "..\Source\Kernel\Process.h")
+compiling Graphics.c...
+compiling Screen.c...
+compiling AsciiLib.c...
+compiling Procesor_CPU.c...
+compiling debug_frmwrk.c...
+compiling lpc17xx_adc.c...
+compiling lpc17xx_can.c...
+..\Source\Platform\LPC17xx\lpc17xx_can.c(144): warning:  #550-D: variable "temp" was set but never used
+..\Source\Platform\LPC17xx\lpc17xx_can.c(712): warning:  #550-D: variable "abc" was set but never used
+..\Source\Platform\LPC17xx\lpc17xx_can.c(1374): warning:  #61-D: integer operation result is out of range
+..\Source\Platform\LPC17xx\lpc17xx_can.c(1374): warning:  #68-D: integer conversion resulted in a change of sign
+..\Source\Platform\LPC17xx\lpc17xx_can.c(1378): warning:  #61-D: integer operation result is out of range
+..\Source\Platform\LPC17xx\lpc17xx_can.c(1414): warning:  #61-D: integer operation result is out of range
+..\Source\Platform\LPC17xx\lpc17xx_can.c(1414): warning:  #68-D: integer conversion resulted in a change of sign
+..\Source\Platform\LPC17xx\lpc17xx_can.c(1418): warning:  #61-D: integer operation result is out of range
+..\Source\Platform\LPC17xx\lpc17xx_can.c(1454): warning:  #61-D: integer operation result is out of range
+..\Source\Platform\LPC17xx\lpc17xx_can.c(1454): warning:  #68-D: integer conversion resulted in a change of sign
+..\Source\Platform\LPC17xx\lpc17xx_can.c(1458): warning:  #61-D: integer operation result is out of range
+..\Source\Platform\LPC17xx\lpc17xx_can.c(899): warning: C3017W: buf1 may be used before being set
+..\Source\Platform\LPC17xx\lpc17xx_can.c(899): warning: C3017W: buf0 may be used before being set
+..\Source\Platform\LPC17xx\lpc17xx_can.c(84): warning: C3017W: BRP may be used before being set
+..\Source\Platform\LPC17xx\lpc17xx_can.c(82): warning: C3017W: TSEG2 may be used before being set
+..\Source\Platform\LPC17xx\lpc17xx_can.c(82): warning: C3017W: TSEG1 may be used before being set
+compiling lpc17xx_clkpwr.c...
+compiling lpc17xx_dac.c...
+compiling lpc17xx_emac.c...
+compiling lpc17xx_exti.c...
+compiling lpc17xx_gpdma.c...
+..\Source\Platform\LPC17xx\lpc17xx_gpdma.c(87): warning:  #1296-D: extended constant initialiser used
+..\Source\Platform\LPC17xx\lpc17xx_gpdma.c(88): warning:  #1296-D: extended constant initialiser used
+..\Source\Platform\LPC17xx\lpc17xx_gpdma.c(89): warning:  #1296-D: extended constant initialiser used
+..\Source\Platform\LPC17xx\lpc17xx_gpdma.c(90): warning:  #1296-D: extended constant initialiser used
+..\Source\Platform\LPC17xx\lpc17xx_gpdma.c(91): warning:  #1296-D: extended constant initialiser used
+..\Source\Platform\LPC17xx\lpc17xx_gpdma.c(92): warning:  #1296-D: extended constant initialiser used
+..\Source\Platform\LPC17xx\lpc17xx_gpdma.c(93): warning:  #1296-D: extended constant initialiser used
+..\Source\Platform\LPC17xx\lpc17xx_gpdma.c(94): warning:  #1296-D: extended constant initialiser used
+..\Source\Platform\LPC17xx\lpc17xx_gpdma.c(95): warning:  #1296-D: extended constant initialiser used
+..\Source\Platform\LPC17xx\lpc17xx_gpdma.c(96): warning:  #1296-D: extended constant initialiser used
+..\Source\Platform\LPC17xx\lpc17xx_gpdma.c(97): warning:  #1296-D: extended constant initialiser used
+..\Source\Platform\LPC17xx\lpc17xx_gpdma.c(98): warning:  #1296-D: extended constant initialiser used
+..\Source\Platform\LPC17xx\lpc17xx_gpdma.c(99): warning:  #1296-D: extended constant initialiser used
+..\Source\Platform\LPC17xx\lpc17xx_gpdma.c(100): warning:  #1296-D: extended constant initialiser used
+..\Source\Platform\LPC17xx\lpc17xx_gpdma.c(101): warning:  #1296-D: extended constant initialiser used
+..\Source\Platform\LPC17xx\lpc17xx_gpdma.c(102): warning:  #1296-D: extended constant initialiser used
+..\Source\Platform\LPC17xx\lpc17xx_gpdma.c(103): warning:  #1296-D: extended constant initialiser used
+..\Source\Platform\LPC17xx\lpc17xx_gpdma.c(104): warning:  #1296-D: extended constant initialiser used
+..\Source\Platform\LPC17xx\lpc17xx_gpdma.c(105): warning:  #1296-D: extended constant initialiser used
+..\Source\Platform\LPC17xx\lpc17xx_gpdma.c(106): warning:  #1296-D: extended constant initialiser used
+..\Source\Platform\LPC17xx\lpc17xx_gpdma.c(107): warning:  #1296-D: extended constant initialiser used
+..\Source\Platform\LPC17xx\lpc17xx_gpdma.c(108): warning:  #1296-D: extended constant initialiser used
+..\Source\Platform\LPC17xx\lpc17xx_gpdma.c(109): warning:  #1296-D: extended constant initialiser used
+..\Source\Platform\LPC17xx\lpc17xx_gpdma.c(110): warning:  #1296-D: extended constant initialiser used
+compiling lpc17xx_gpio.c...
+compiling lpc17xx_i2c.c...
+..\Source\Platform\LPC17xx\lpc17xx_i2c.c(597): warning:  #188-D: enumerated type mixed with another type
+..\Source\Platform\LPC17xx\lpc17xx_i2c.c(694): warning:  #188-D: enumerated type mixed with another type
+..\Source\Platform\LPC17xx\lpc17xx_i2c.c(701): warning:  #188-D: enumerated type mixed with another type
+..\Source\Platform\LPC17xx\lpc17xx_i2c.c(749): warning:  #188-D: enumerated type mixed with another type
+..\Source\Platform\LPC17xx\lpc17xx_i2c.c(901): warning:  #188-D: enumerated type mixed with another type
+..\Source\Platform\LPC17xx\lpc17xx_i2c.c(914): warning:  #188-D: enumerated type mixed with another type
+..\Source\Platform\LPC17xx\lpc17xx_i2c.c(951): warning:  #188-D: enumerated type mixed with another type
+..\Source\Platform\LPC17xx\lpc17xx_i2c.c(1161): warning:  #188-D: enumerated type mixed with another type
+..\Source\Platform\LPC17xx\lpc17xx_i2c.c(221): warning: C3017W: temp may be used before being set
+..\Source\Platform\LPC17xx\lpc17xx_i2c.c(995): warning: C3017W: CodeStatus may be used before being set
+compiling lpc17xx_i2s.c...
+compiling lpc17xx_libcfg_default.c...
+compiling lpc17xx_mcpwm.c...
+..\Source\Platform\LPC17xx\lpc17xx_mcpwm.c(93): warning:  #186-D: pointless comparison of unsigned integer with zero
+..\Source\Platform\LPC17xx\lpc17xx_mcpwm.c(181): warning:  #186-D: pointless comparison of unsigned integer with zero
+..\Source\Platform\LPC17xx\lpc17xx_mcpwm.c(258): warning:  #186-D: pointless comparison of unsigned integer with zero
+..\Source\Platform\LPC17xx\lpc17xx_mcpwm.c(260): warning:  #186-D: pointless comparison of unsigned integer with zero
+..\Source\Platform\LPC17xx\lpc17xx_mcpwm.c(262): warning:  #186-D: pointless comparison of unsigned integer with zero
+..\Source\Platform\LPC17xx\lpc17xx_mcpwm.c(262): warning:  #186-D: pointless comparison of unsigned integer with zero
+..\Source\Platform\LPC17xx\lpc17xx_mcpwm.c(264): warning:  #186-D: pointless comparison of unsigned integer with zero
+..\Source\Platform\LPC17xx\lpc17xx_mcpwm.c(264): warning:  #186-D: pointless comparison of unsigned integer with zero
+..\Source\Platform\LPC17xx\lpc17xx_mcpwm.c(267): warning:  #186-D: pointless comparison of unsigned integer with zero
+..\Source\Platform\LPC17xx\lpc17xx_mcpwm.c(267): warning:  #186-D: pointless comparison of unsigned integer with zero
+..\Source\Platform\LPC17xx\lpc17xx_mcpwm.c(269): warning:  #186-D: pointless comparison of unsigned integer with zero
+..\Source\Platform\LPC17xx\lpc17xx_mcpwm.c(269): warning:  #186-D: pointless comparison of unsigned integer with zero
+..\Source\Platform\LPC17xx\lpc17xx_mcpwm.c(272): warning:  #186-D: pointless comparison of unsigned integer with zero
+..\Source\Platform\LPC17xx\lpc17xx_mcpwm.c(376): warning:  #61-D: integer operation result is out of range
+..\Source\Platform\LPC17xx\lpc17xx_mcpwm.c(378): warning:  #61-D: integer operation result is out of range
+compiling lpc17xx_nvic.c...
+compiling lpc17xx_pinsel.c...
+..\Source\Platform\LPC17xx\lpc17xx_pinsel.c(275): warning: C3017W: regVal may be used before being set
+compiling lpc17xx_pwm.c...
+compiling lpc17xx_qei.c...
+compiling lpc17xx_rit.c...
+..\Source\Platform\LPC17xx\lpc17xx_rit.c(180): warning:  #188-D: enumerated type mixed with another type
+compiling lpc17xx_rtc.c...
+compiling lpc17xx_spi.c...
+..\Source\Platform\LPC17xx\lpc17xx_spi.c(228): warning: C3017W: stat may be used before being set
+..\Source\Platform\LPC17xx\lpc17xx_spi.c(227): warning: C3017W: wdata16 may be used before being set
+..\Source\Platform\LPC17xx\lpc17xx_spi.c(226): warning: C3017W: rdata16 may be used before being set
+..\Source\Platform\LPC17xx\lpc17xx_spi.c(225): warning: C3017W: wdata8 may be used before being set
+..\Source\Platform\LPC17xx\lpc17xx_spi.c(224): warning: C3017W: rdata8 may be used before being set
+compiling lpc17xx_ssp.c...
+..\Source\Platform\LPC17xx\lpc17xx_ssp.c(351): warning: C3017W: wdata16 may be used before being set
+..\Source\Platform\LPC17xx\lpc17xx_ssp.c(350): warning: C3017W: rdata16 may be used before being set
+..\Source\Platform\LPC17xx\lpc17xx_ssp.c(349): warning: C3017W: wdata8 may be used before being set
+..\Source\Platform\LPC17xx\lpc17xx_ssp.c(348): warning: C3017W: rdata8 may be used before being set
+compiling lpc17xx_systick.c...
+compiling lpc17xx_timer.c...
+..\Source\Platform\LPC17xx\lpc17xx_timer.c(115): warning:  #68-D: integer conversion resulted in a change of sign
+..\Source\Platform\LPC17xx\lpc17xx_timer.c(63): warning: C3017W: clkdlycnt may be used before being set
+compiling lpc17xx_uart.c...
+..\Source\Platform\LPC17xx\lpc17xx_uart.c(70): warning: C3017W: uClk may be used before being set
+..\Source\Platform\LPC17xx\lpc17xx_uart.c(680): warning: C3017W: tmp may be used before being set
+..\Source\Platform\LPC17xx\lpc17xx_uart.c(1170): warning: C3017W: tmp may be used before being set
+compiling lpc17xx_wdt.c...
+compiling system_LPC17xx.c...
+compiling core_cm3.c...
+compiling diskio.c...
+compiling ff.c...
+..\Source\FatFs\ff.c(1709): warning:  #111-D: statement is unreachable
+compiling ccsbcs.c...
+Target not created
+Build target 'Mystic'
+compiling Kernel.c...
+..\Source\Kernel\Kernel.c(574): warning:  #177-D: variable "i" was declared but never referenced
+..\Source\Kernel\Kernel.c(574): warning:  #177-D: variable "p" was declared but never referenced
+..\Source\Kernel\Kernel.c(575): warning:  #177-D: variable "proc" was declared but never referenced
+..\Source\Kernel\Kernel.c(1126): warning:  #177-D: variable "byteArray" was declared but never referenced
+compiling Thread.c...
+..\Source\Kernel\Thread.h(52): error:  #101: "Block" has already been declared in the current scope
+..\Source\Kernel\Thread.h(62): error:  #81: more than one storage class may not be specified
+..\Source\Kernel\Thread.h(62): error:  #65: expected a ";"
+..\Source\Kernel\Thread.h(62): error:  #101: "Process" has already been declared in the current scope
+..\Source\Kernel\Thread.h(77): error:  #101: "Process" has already been declared in the current scope
+..\Source\Kernel\Thread.h(80): error:  #757: variable "Process" is not a type name
+..\Source\Kernel\Thread.h(83): error:  #757: variable "Process" is not a type name
+..\Source\Kernel\Thread.h(86): error:  #757: variable "Process" is not a type name
+..\Source\Kernel\Thread.h(89): error:  #757: variable "Process" is not a type name
+..\Source\Kernel\Thread.h(92): error:  #757: variable "Process" is not a type name
+..\Source\Kernel\Thread.h(95): error:  #757: variable "Process" is not a type name
+..\Source\Kernel\Thread.h(98): error:  #757: variable "Process" is not a type name
+..\Source\Kernel\Thread.h(104): error:  #757: variable "Process" is not a type name
+..\Source\Kernel\Kernel.h(44): error:  #757: variable "Process" is not a type name
+..\Source\Kernel\Kernel.h(47): error:  #757: variable "Process" is not a type name
+..\Source\Kernel\Kernel.h(71): error:  #757: variable "Process" is not a type name
+..\Source\Kernel\Kernel.h(99): error:  #757: variable "Process" is not a type name
+..\Source\Kernel\Kernel.h(102): error:  #757: variable "Process" is not a type name
+..\Source\Kernel\Thread.c(23): error:  #20: identifier "wsk" is undefined
+..\Source\Kernel\Thread.c(23): error:  #32: expression must have arithmetic type
+..\Source\Kernel\Thread.c(40): error:  #29: expected an expression
+..\Source\Kernel\Thread.c(40): error:  #32: expression must have arithmetic type
+..\Source\Kernel\Thread.c(40): error:  #65: expected a ";"
+..\Source\Kernel\Thread.c(61): error:  #757: variable "Process" is not a type name
+..\Source\Kernel\Thread.c(64): error:  #20: identifier "Proc" is undefined
+..\Source\Kernel\Thread.c(64): error:  #32: expression must have arithmetic type
+..\Source\Kernel\Thread.c(67): error:  #29: expected an expression
+..\Source\Kernel\Thread.c(67): error:  #32: expression must have arithmetic type
+..\Source\Kernel\Thread.c(67): error:  #65: expected a ";"
+..\Source\Kernel\Thread.c(103): error:  #757: variable "Process" is not a type name
+Target not created
+Build target 'Mystic'
+compiling Thread.c...
+..\Source\Kernel\Thread.h(59): error:  #256: invalid redeclaration of type name "Block" (declared at line 59 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(77): error:  #256: invalid redeclaration of type name "Process" (declared at line 77 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(80): error:  #147: declaration is incompatible with "Process *OS_Proc_Create(Char *, File *, Byte, Byte, Word, Word)" (declared at line 80 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(83): error:  #147-D: declaration is incompatible with "void OS_Proc_Terminate(Process *)" (declared at line 83 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(86): error:  #147-D: declaration is incompatible with "void OS_Proc_Suspend(Process *)" (declared at line 86 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(89): error:  #147-D: declaration is incompatible with "void OS_Proc_Run(Process *)" (declared at line 89 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(92): error:  #147-D: declaration is incompatible with "void OS_Proc_Sleep(Process *, Word)" (declared at line 92 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(95): error:  #147: declaration is incompatible with "Process *OS_Proc_GetProcessByPID(Byte)" (declared at line 95 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(98): error:  #147: declaration is incompatible with "Process *OS_Proc_GetProcessByName(Char *)" (declared at line 98 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(104): error:  #147-D: declaration is incompatible with "Word OS_Proc_GetMemoryUsage(Process *)" (declared at line 104 of "..\Source\Kernel\Process.h")
+Target not created
+Build target 'Mystic'
+compiling Thread.c...
+..\Source\Kernel\Thread.h(52): error:  #101: "Block" has already been declared in the current scope
+..\Source\Kernel\Thread.h(59): error:  #256: invalid redeclaration of type name "Block" (declared at line 59 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(77): error:  #256: invalid redeclaration of type name "Process" (declared at line 77 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(80): error:  #147: declaration is incompatible with "Process *OS_Proc_Create(Char *, File *, Byte, Byte, Word, Word)" (declared at line 80 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(83): error:  #147-D: declaration is incompatible with "void OS_Proc_Terminate(Process *)" (declared at line 83 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(86): error:  #147-D: declaration is incompatible with "void OS_Proc_Suspend(Process *)" (declared at line 86 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(89): error:  #147-D: declaration is incompatible with "void OS_Proc_Run(Process *)" (declared at line 89 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(92): error:  #147-D: declaration is incompatible with "void OS_Proc_Sleep(Process *, Word)" (declared at line 92 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(95): error:  #147: declaration is incompatible with "Process *OS_Proc_GetProcessByPID(Byte)" (declared at line 95 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(98): error:  #147: declaration is incompatible with "Process *OS_Proc_GetProcessByName(Char *)" (declared at line 98 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(104): error:  #147-D: declaration is incompatible with "Word OS_Proc_GetMemoryUsage(Process *)" (declared at line 104 of "..\Source\Kernel\Process.h")
+Target not created
+Build target 'Mystic'
+compiling Kernel.c...
+..\Source\Kernel\Kernel.c(574): warning:  #177-D: variable "i" was declared but never referenced
+..\Source\Kernel\Kernel.c(574): warning:  #177-D: variable "p" was declared but never referenced
+..\Source\Kernel\Kernel.c(575): warning:  #177-D: variable "proc" was declared but never referenced
+..\Source\Kernel\Kernel.c(1126): warning:  #177-D: variable "byteArray" was declared but never referenced
+compiling Thread.c...
+..\Source\Kernel\Thread.h(52): error:  #101: "Block" has already been declared in the current scope
+..\Source\Kernel\Thread.h(59): error:  #256: invalid redeclaration of type name "Block" (declared at line 59 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(77): error:  #256: invalid redeclaration of type name "Process" (declared at line 77 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(80): error:  #147: declaration is incompatible with "Process *OS_Proc_Create(Char *, File *, Byte, Byte, Word, Word)" (declared at line 80 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(83): error:  #147-D: declaration is incompatible with "void OS_Proc_Terminate(Process *)" (declared at line 83 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(86): error:  #147-D: declaration is incompatible with "void OS_Proc_Suspend(Process *)" (declared at line 86 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(89): error:  #147-D: declaration is incompatible with "void OS_Proc_Run(Process *)" (declared at line 89 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(92): error:  #147-D: declaration is incompatible with "void OS_Proc_Sleep(Process *, Word)" (declared at line 92 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(95): error:  #147: declaration is incompatible with "Process *OS_Proc_GetProcessByPID(Byte)" (declared at line 95 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(98): error:  #147: declaration is incompatible with "Process *OS_Proc_GetProcessByName(Char *)" (declared at line 98 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(104): error:  #147-D: declaration is incompatible with "Word OS_Proc_GetMemoryUsage(Process *)" (declared at line 104 of "..\Source\Kernel\Process.h")
+Target not created
+compiling Kernel.c...
+..\Source\Kernel\Kernel.c(574): warning:  #177-D: variable "i" was declared but never referenced
+..\Source\Kernel\Kernel.c(574): warning:  #177-D: variable "p" was declared but never referenced
+..\Source\Kernel\Kernel.c(575): warning:  #177-D: variable "proc" was declared but never referenced
+..\Source\Kernel\Kernel.c(1126): warning:  #177-D: variable "byteArray" was declared but never referenced
+..\Source\Kernel\Kernel.c - 0 Error(s), 4 Warning(s).
+Build target 'Mystic'
+compiling Thread.c...
+..\Source\Kernel\Thread.h(52): error:  #101: "Block" has already been declared in the current scope
+..\Source\Kernel\Thread.h(59): error:  #256: invalid redeclaration of type name "Block" (declared at line 59 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(77): error:  #256: invalid redeclaration of type name "Process" (declared at line 77 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(80): error:  #147: declaration is incompatible with "Process *OS_Proc_Create(Char *, File *, Byte, Byte, Word, Word)" (declared at line 80 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(83): error:  #147-D: declaration is incompatible with "void OS_Proc_Terminate(Process *)" (declared at line 83 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(86): error:  #147-D: declaration is incompatible with "void OS_Proc_Suspend(Process *)" (declared at line 86 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(89): error:  #147-D: declaration is incompatible with "void OS_Proc_Run(Process *)" (declared at line 89 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(92): error:  #147-D: declaration is incompatible with "void OS_Proc_Sleep(Process *, Word)" (declared at line 92 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(95): error:  #147: declaration is incompatible with "Process *OS_Proc_GetProcessByPID(Byte)" (declared at line 95 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(98): error:  #147: declaration is incompatible with "Process *OS_Proc_GetProcessByName(Char *)" (declared at line 98 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(104): error:  #147-D: declaration is incompatible with "Word OS_Proc_GetMemoryUsage(Process *)" (declared at line 104 of "..\Source\Kernel\Process.h")
+Target not created
+Build target 'Mystic'
+compiling Thread.c...
+..\Source\Kernel\Thread.h(52): error:  #101: "Block" has already been declared in the current scope
+..\Source\Kernel\Thread.h(59): error:  #256: invalid redeclaration of type name "Block" (declared at line 59 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(77): error:  #256: invalid redeclaration of type name "Process" (declared at line 77 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(80): error:  #147: declaration is incompatible with "Process *OS_Proc_Create(Char *, File *, Byte, Byte, Word, Word)" (declared at line 80 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(83): error:  #147-D: declaration is incompatible with "void OS_Proc_Terminate(Process *)" (declared at line 83 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(86): error:  #147-D: declaration is incompatible with "void OS_Proc_Suspend(Process *)" (declared at line 86 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(89): error:  #147-D: declaration is incompatible with "void OS_Proc_Run(Process *)" (declared at line 89 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(92): error:  #147-D: declaration is incompatible with "void OS_Proc_Sleep(Process *, Word)" (declared at line 92 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(95): error:  #147: declaration is incompatible with "Process *OS_Proc_GetProcessByPID(Byte)" (declared at line 95 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(98): error:  #147: declaration is incompatible with "Process *OS_Proc_GetProcessByName(Char *)" (declared at line 98 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(104): error:  #147-D: declaration is incompatible with "Word OS_Proc_GetMemoryUsage(Process *)" (declared at line 104 of "..\Source\Kernel\Process.h")
+Target not created
+Build target 'Mystic'
+compiling main.c...
+..\Source\Kernel\Process.h(10): warning:  #1215-D: #warning directive: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+compiling SPI_MSD_Driver.c...
+..\Source\SPI_SD_Card\..\Kernel\Process.h(10): warning:  #1215-D: #warning directive: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+compiling Kernel.c...
+..\Source\Kernel\Process.h(10): warning:  #1215-D: #warning directive: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+..\Source\Kernel\Kernel.c(574): warning:  #177-D: variable "i" was declared but never referenced
+..\Source\Kernel\Kernel.c(574): warning:  #177-D: variable "p" was declared but never referenced
+..\Source\Kernel\Kernel.c(575): warning:  #177-D: variable "proc" was declared but never referenced
+..\Source\Kernel\Kernel.c(1126): warning:  #177-D: variable "byteArray" was declared but never referenced
+compiling FileSystem.c...
+..\Source\Kernel\Process.h(10): warning:  #1215-D: #warning directive: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+compiling List.c...
+..\Source\Kernel\Process.h(10): warning:  #1215-D: #warning directive: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+compiling Execute.c...
+..\Source\Kernel\Process.h(10): warning:  #1215-D: #warning directive: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+compiling Process.c...
+..\Source\Kernel\Process.h(10): warning:  #1215-D: #warning directive: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+compiling Time.c...
+..\Source\Kernel\Process.h(10): warning:  #1215-D: #warning directive: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+compiling UART.c...
+..\Source\Kernel\Process.h(10): warning:  #1215-D: #warning directive: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+compiling Thread.c...
+..\Source\Kernel\Process.h(10): warning:  #1215-D: #warning directive: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+..\Source\Kernel\Thread.h(52): error:  #101: "Block" has already been declared in the current scope
+..\Source\Kernel\Thread.h(59): error:  #256: invalid redeclaration of type name "Block" (declared at line 59 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(77): error:  #256: invalid redeclaration of type name "Process" (declared at line 77 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(80): error:  #147: declaration is incompatible with "Process *OS_Proc_Create(Char *, File *, Byte, Byte, Word, Word)" (declared at line 80 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(83): error:  #147-D: declaration is incompatible with "void OS_Proc_Terminate(Process *)" (declared at line 83 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(86): error:  #147-D: declaration is incompatible with "void OS_Proc_Suspend(Process *)" (declared at line 86 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(89): error:  #147-D: declaration is incompatible with "void OS_Proc_Run(Process *)" (declared at line 89 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(92): error:  #147-D: declaration is incompatible with "void OS_Proc_Sleep(Process *, Word)" (declared at line 92 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(95): error:  #147: declaration is incompatible with "Process *OS_Proc_GetProcessByPID(Byte)" (declared at line 95 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(98): error:  #147: declaration is incompatible with "Process *OS_Proc_GetProcessByName(Char *)" (declared at line 98 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(104): error:  #147-D: declaration is incompatible with "Word OS_Proc_GetMemoryUsage(Process *)" (declared at line 104 of "..\Source\Kernel\Process.h")
+compiling Graphics.c...
+..\Source\Graphics\..\Kernel\Process.h(10): warning:  #1215-D: #warning directive: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+compiling Screen.c...
+..\Source\Graphics\..\Kernel\Process.h(10): warning:  #1215-D: #warning directive: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+compiling AsciiLib.c...
+..\Source\Graphics\../Kernel/Process.h(10): warning:  #1215-D: #warning directive: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+compiling Procesor_CPU.c...
+..\Source\Platform\..\Kernel\Process.h(10): warning:  #1215-D: #warning directive: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+compiling diskio.c...
+..\Source\FatFs\..\Kernel\Process.h(10): warning:  #1215-D: #warning directive: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+compiling ff.c...
+..\Source\FatFs\..\Kernel\Process.h(10): warning:  #1215-D: #warning directive: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+..\Source\FatFs\ff.c(1709): warning:  #111-D: statement is unreachable
+compiling ccsbcs.c...
+..\Source\FatFs\option\../..\Kernel\Process.h(10): warning:  #1215-D: #warning directive: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Target not created
+Build target 'Mystic'
+compiling main.c...
+compiling SPI_MSD_Driver.c...
+compiling Kernel.c...
+..\Source\Kernel\Kernel.c(574): warning:  #177-D: variable "i" was declared but never referenced
+..\Source\Kernel\Kernel.c(574): warning:  #177-D: variable "p" was declared but never referenced
+..\Source\Kernel\Kernel.c(575): warning:  #177-D: variable "proc" was declared but never referenced
+..\Source\Kernel\Kernel.c(1126): warning:  #177-D: variable "byteArray" was declared but never referenced
+compiling FileSystem.c...
+compiling List.c...
+compiling Execute.c...
+compiling Process.c...
+compiling Time.c...
+compiling UART.c...
+compiling Thread.c...
+..\Source\Kernel\Thread.h(52): error:  #101: "Block" has already been declared in the current scope
+..\Source\Kernel\Thread.h(59): error:  #256: invalid redeclaration of type name "Block" (declared at line 59 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(77): error:  #256: invalid redeclaration of type name "Process" (declared at line 77 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(80): error:  #147: declaration is incompatible with "Process *OS_Proc_Create(Char *, File *, Byte, Byte, Word, Word)" (declared at line 80 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(83): error:  #147-D: declaration is incompatible with "void OS_Proc_Terminate(Process *)" (declared at line 83 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(86): error:  #147-D: declaration is incompatible with "void OS_Proc_Suspend(Process *)" (declared at line 86 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(89): error:  #147-D: declaration is incompatible with "void OS_Proc_Run(Process *)" (declared at line 89 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(92): error:  #147-D: declaration is incompatible with "void OS_Proc_Sleep(Process *, Word)" (declared at line 92 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(95): error:  #147: declaration is incompatible with "Process *OS_Proc_GetProcessByPID(Byte)" (declared at line 95 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(98): error:  #147: declaration is incompatible with "Process *OS_Proc_GetProcessByName(Char *)" (declared at line 98 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(104): error:  #147-D: declaration is incompatible with "Word OS_Proc_GetMemoryUsage(Process *)" (declared at line 104 of "..\Source\Kernel\Process.h")
+compiling Graphics.c...
+compiling Screen.c...
+compiling AsciiLib.c...
+compiling Procesor_CPU.c...
+compiling diskio.c...
+compiling ff.c...
+..\Source\FatFs\ff.c(1709): warning:  #111-D: statement is unreachable
+compiling ccsbcs.c...
+Target not created
+Build target 'Mystic'
+compiling main.c...
+compiling SPI_MSD_Driver.c...
+compiling Kernel.c...
+..\Source\Kernel\Kernel.c(574): warning:  #177-D: variable "i" was declared but never referenced
+..\Source\Kernel\Kernel.c(574): warning:  #177-D: variable "p" was declared but never referenced
+..\Source\Kernel\Kernel.c(575): warning:  #177-D: variable "proc" was declared but never referenced
+..\Source\Kernel\Kernel.c(1126): warning:  #177-D: variable "byteArray" was declared but never referenced
+compiling FileSystem.c...
+compiling List.c...
+compiling Execute.c...
+compiling Process.c...
+compiling Time.c...
+compiling UART.c...
+compiling Thread.c...
+..\Source\Kernel\Thread.h(52): error:  #101: "Block" has already been declared in the current scope
+..\Source\Kernel\Thread.h(59): error:  #256: invalid redeclaration of type name "Block" (declared at line 59 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(77): error:  #256: invalid redeclaration of type name "Process" (declared at line 77 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(80): error:  #147: declaration is incompatible with "Process *OS_Proc_Create(Char *, File *, Byte, Byte, Word, Word)" (declared at line 80 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(83): error:  #147-D: declaration is incompatible with "void OS_Proc_Terminate(Process *)" (declared at line 83 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(86): error:  #147-D: declaration is incompatible with "void OS_Proc_Suspend(Process *)" (declared at line 86 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(89): error:  #147-D: declaration is incompatible with "void OS_Proc_Run(Process *)" (declared at line 89 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(92): error:  #147-D: declaration is incompatible with "void OS_Proc_Sleep(Process *, Word)" (declared at line 92 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(95): error:  #147: declaration is incompatible with "Process *OS_Proc_GetProcessByPID(Byte)" (declared at line 95 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(98): error:  #147: declaration is incompatible with "Process *OS_Proc_GetProcessByName(Char *)" (declared at line 98 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(104): error:  #147-D: declaration is incompatible with "Word OS_Proc_GetMemoryUsage(Process *)" (declared at line 104 of "..\Source\Kernel\Process.h")
+compiling Graphics.c...
+compiling Screen.c...
+compiling AsciiLib.c...
+compiling Procesor_CPU.c...
+compiling diskio.c...
+compiling ff.c...
+..\Source\FatFs\ff.c(1709): warning:  #111-D: statement is unreachable
+compiling ccsbcs.c...
+Target not created
+Build target 'Mystic'
+compiling main.c...
+compiling SPI_MSD_Driver.c...
+compiling Kernel.c...
+..\Source\Kernel\Kernel.c(574): warning:  #177-D: variable "i" was declared but never referenced
+..\Source\Kernel\Kernel.c(574): warning:  #177-D: variable "p" was declared but never referenced
+..\Source\Kernel\Kernel.c(575): warning:  #177-D: variable "proc" was declared but never referenced
+..\Source\Kernel\Kernel.c(1126): warning:  #177-D: variable "byteArray" was declared but never referenced
+compiling FileSystem.c...
+compiling List.c...
+compiling Execute.c...
+compiling Process.c...
+compiling Time.c...
+compiling UART.c...
+compiling Thread.c...
+..\Source\Kernel\Thread.h(52): error:  #101: "Block" has already been declared in the current scope
+..\Source\Kernel\Thread.h(59): error:  #256: invalid redeclaration of type name "Block" (declared at line 59 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(77): error:  #256: invalid redeclaration of type name "Process" (declared at line 77 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(80): error:  #147: declaration is incompatible with "Process *OS_Proc_Create(Char *, File *, Byte, Byte, Word, Word)" (declared at line 80 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(83): error:  #147-D: declaration is incompatible with "void OS_Proc_Terminate(Process *)" (declared at line 83 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(86): error:  #147-D: declaration is incompatible with "void OS_Proc_Suspend(Process *)" (declared at line 86 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(89): error:  #147-D: declaration is incompatible with "void OS_Proc_Run(Process *)" (declared at line 89 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(92): error:  #147-D: declaration is incompatible with "void OS_Proc_Sleep(Process *, Word)" (declared at line 92 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(95): error:  #147: declaration is incompatible with "Process *OS_Proc_GetProcessByPID(Byte)" (declared at line 95 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(98): error:  #147: declaration is incompatible with "Process *OS_Proc_GetProcessByName(Char *)" (declared at line 98 of "..\Source\Kernel\Process.h")
+..\Source\Kernel\Thread.h(104): error:  #147-D: declaration is incompatible with "Word OS_Proc_GetMemoryUsage(Process *)" (declared at line 104 of "..\Source\Kernel\Process.h")
+compiling Graphics.c...
+compiling Screen.c...
+compiling AsciiLib.c...
+compiling Procesor_CPU.c...
+compiling diskio.c...
+compiling ff.c...
+..\Source\FatFs\ff.c(1709): warning:  #111-D: statement is unreachable
+compiling ccsbcs.c...
+Target not created
